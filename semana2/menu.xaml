@@ -1,0 +1,24 @@
+﻿<Window x:Class="semana2.menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:semana2"
+        mc:Ignorable="d"
+        Title="menu" Height="450" Width="800">
+    <Grid>
+        <Label Content="Operaciones" HorizontalAlignment="Left" Margin="136,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="2.839,0.478"/>
+        <Button Content="Ingresos" HorizontalAlignment="Left" Margin="136,136,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_1"/>
+        <Button Content="Salida" HorizontalAlignment="Left" Margin="136,185,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="Mantenimiento" HorizontalAlignment="Left" Margin="341,75,0,0" VerticalAlignment="Top"/>
+        <Button Content="Conductores" HorizontalAlignment="Left" Margin="344,136,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+        <Button Content="Transportistas" HorizontalAlignment="Left" Margin="344,185,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+        <Button Content="Camiones" HorizontalAlignment="Left" Margin="344,233,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+        <Button Content="Productos" HorizontalAlignment="Left" Margin="344,279,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+        <Label Content="Reportes" HorizontalAlignment="Left" Margin="573,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.668,0.556"/>
+        <Button Content="Cargas" HorizontalAlignment="Left" Margin="558,136,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+        <Button Content="Ingresos" HorizontalAlignment="Left" Margin="558,185,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+        <Button Content="Salidas" HorizontalAlignment="Left" Margin="558,233,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click"/>
+
+    </Grid>
+</Window>
